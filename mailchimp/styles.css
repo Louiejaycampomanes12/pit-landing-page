@@ -1,0 +1,1193 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500vh;
+    background-color: #f5f5f5 ;
+    position: relative;
+    border-top: 60px solid #000; /* Add border top */
+    
+  }
+    
+  .content {
+    text-align: center;
+  }
+  img {
+    position: absolute;
+    top: 0.37%; /* Adjust the top position as needed */
+    left: 6.30%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    width:160px; /* Adjusted width */
+  }
+  .border-text {
+    position: absolute;
+    top: -45px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.border-text2 {
+  position: absolute;
+  top: -30px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 0 10px;
+  font-size: 12px;
+  font-family:  sans-serif;
+  font-weight: bold;
+}
+
+.content {
+  position: absolute;
+  top: 100px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 160%;
+  margin: 0;
+  left: 8%;
+}
+.content2 {
+  position: absolute;
+  top: 180px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 180%;
+  margin: 0;
+  left: 8%;
+}
+
+.content4 {
+  position: absolute;
+  top:0.35%;
+  right: 13%;
+  color: black;
+  font-family: Arial;
+  font-size: 90%;
+  margin: 0;
+  
+}
+.button-container1 {
+  margin-top: 20px; /* Adjust margin as needed */
+  text-align: center; /* Center-align the buttons */
+  background-color: white;
+}
+.button {
+  position: absolute;
+  right: 5%;
+  top:10%;
+  background-color:white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 11px;
+  border: solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 75px; /* Adjust the width as per your requirement */
+height: 35px
+}
+.button-container2 {
+  margin-top: 20px; /* Adjust margin as needed */
+  text-align: center; /* Center-align the buttons */
+}
+
+ .Start  {
+  position: absolute;
+  right: 11%;
+  top: 10%;
+  background-color: #FFFF00;
+  color: black;
+  padding: 10px 20px;
+  font-size: 11px;
+  border: solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 120px;
+height: 35px
+
+}
+.select {
+  position: absolute;
+  left: 15cm;
+  top: 73.50cm;
+  background-color: #FFFF00;
+  color: black;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 120px; /* Adjust the width as per your requirement */
+height: 45px
+
+}
+.menu-image {
+  position: absolute;
+  top: 10%; /* Adjust the top position as needed */
+  left: 98%; /* Adjust the left position as needed */
+  transform: translateX(-50%);
+  width:30px; /* Adjusted width */
+}
+/* Video Styles */
+.menu-image2 {
+  position: absolute;
+  top: 55%; /* Adjust the top position as needed */
+  left: 50%; /* Adjust the left position as needed */
+  transform: translateX(-50%);
+  width:70%; /* Adjusted width */
+}
+/* Video Styles */
+.content5 {
+  position: absolute;
+  bottom:-63%;
+  left: 48%;
+  color: black;
+  font-family: Arial;
+  font-size: 100%;
+  margin: 0;
+}
+.content6 {
+  position: absolute;
+  bottom:-73%;
+  left: 40%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+  margin: 0;
+}
+
+
+.txt input{
+  position: absolute;
+  bottom:-80%;
+  left: 40%;
+  color: black;
+  font-family: Arial;
+  font-size: 100%;
+  margin: 0;
+  width: 300px; /* Adjust the width as per your requirement */
+  height: 30px;
+}
+#contactOptions {
+  position: absolute;
+  bottom:-80%;
+  left: 60%;
+  color: black;
+  font-family: Arial;
+  font-size: 100%;
+  margin: 0;
+  width: 100px; /* Adjust the width as per your requirement */
+  height: 35px;
+}
+  .background {
+    position: absolute;
+    width: 22%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:white; /* Set the border properties */
+    top:38%; /* Adjust the bottom margin as needed */
+    height: 26%;
+    border: 1px solid gray; 
+    left:18.80%;
+    
+  }
+  .background2 {
+    position: absolute;
+    width: 26%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:white; /* Set the border properties */
+    top:37.70%; /* Adjust the bottom margin as needed */
+    height: 27%;
+    border: 1.50px solid gray; 
+    left: 40%;
+    
+  }
+  .background3 {
+    position: absolute;
+    width: 21%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:white; /* Set the border properties */
+    top:38%; /* Adjust the bottom margin as needed */
+    height: 26%;
+    border: 1px solid gray; 
+    left: 66.11%;
+    
+  }
+  .background4 {
+    position: absolute;
+    width: 26%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:#b0c4de; /* Set the border properties */
+    top:37%; /* Adjust the bottom margin as needed */
+    height: .90%;
+    border: 1px solid gray; 
+    left: 40%;
+  }
+  .background5 {
+    position: absolute;
+    width: 26%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:#b0c4de; /* Set the border properties */
+    top:37%; /* Adjust the bottom margin as needed */
+    height: .90%;
+    border: 1px solid gray; 
+    left: 40%;
+  }
+  
+  .content7 {
+    position: absolute;
+    bottom:-114%;
+    left: 19%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin: 0;
+  }
+  .content8 {
+    position: absolute;
+    bottom:-118%;
+    left: 19%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  .content9 {
+    position: absolute;
+    bottom:-115%;
+    left: 19%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  .content10 {
+    position: absolute;
+    bottom:-123%;
+    left: 19%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    margin: 0;
+  }
+  .content12 {
+    position: absolute;
+    bottom:-113%;
+    left: 42%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin: 0;
+  }
+  .content13 {
+    position: absolute;
+    bottom:-119%;
+    left: 42%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  .content14 {
+    position: absolute;
+    bottom:-114%;
+    left: 67%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin: 0;
+  }
+  .content15 {
+    position: absolute;
+    bottom:-118%;
+    left: 67%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  .content16 {
+    position: absolute;
+    top: 192%;
+    left: 51%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  .content17 {
+    position: absolute;
+    top: 1060px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis (...) for any overflowing text */
+  }
+  .content18 {
+    position: absolute;
+    top: 1150px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  .content19 {
+    position: absolute;
+    top: 560%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: -250%;
+  }
+  .content20 {
+    position: absolute;
+    top: 60%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 75%;
+  }
+  .content21 {
+    position: absolute;
+    top: 2%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 212%;
+  }
+  .content22 {
+    position: absolute;
+    top: 60%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 238%;
+  } .content23 {
+    position: absolute;
+    top: 2%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 398%;
+  }
+  .content24 {
+    position: absolute;
+    top: 60%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 410%;
+  }
+  .content25 { 
+    position: absolute;
+    top: 400%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 8cm;
+    color: #f5f5f5;
+  }
+  .content26 { 
+    position: absolute;
+    top: 420%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 18cm;
+    color: #f5f5f5;
+  }
+  .content27 { 
+    position: absolute;
+    top: 500%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 19.30cm;
+    color: #f5f5f5;
+  }
+  .content28 { 
+    position: absolute;
+    top: 630%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 18cm;
+    color: #f5f5f5;
+  }
+  .content29 { 
+    position: absolute;
+    top: 685%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 19.30cm;
+    color: #f5f5f5;
+  }
+  .content30 { 
+    position: absolute;
+    top: 830%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 19cm;
+    color: #f5f5f5;
+  }
+  .content31 { 
+    position: absolute;
+    top: 878%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 19cm;
+    color: #f5f5f5;
+  }
+  .content32 { 
+    position: absolute;
+    top: 420%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 29.30cm;
+    color: #f5f5f5;
+  }
+  .content33 { 
+    position: absolute;
+    top: 470%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 29cm;
+    color: #f5f5f5;
+  }
+  .content34 { 
+    position: absolute;
+    top: 620%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 28cm;
+    color: #f5f5f5;
+  }
+  .content35{ 
+    position: absolute;
+    top: 700%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 29.30cm;
+    color: #f5f5f5;
+  }
+  .content36{ 
+    position: absolute;
+    top: 830%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 29.30cm;
+    color: #f5f5f5;
+  }
+  .content37{ 
+    position: absolute;
+    top:878%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 29.30cm;
+    color: #f5f5f5;
+  }
+  .content38{ 
+    position: absolute;
+    top:1170%;
+    transform: translateX(-50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:120%;
+    color: black;
+  }
+  .content39{ 
+    position: absolute;
+    top:1340%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:73%;
+    color: black;
+  }
+  .content40{ 
+    position: absolute;
+    top:1400%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:100%;
+    color: #555555;
+  }
+  .content41{ 
+    position: absolute;
+    top:1500%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:75%;
+    color: black;
+  }
+  .content42{ 
+    position: absolute;
+    top:1560%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:105%;
+    color: #555555;
+  }
+  .content43{ 
+    position: absolute;
+    top:1650%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:95%;
+    color: black;
+  }
+  .content44{ 
+    position: absolute;
+    top:1710%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:109%;
+    color: #555555;
+  }
+  .content45{ 
+    position: absolute;
+    top:1340%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:19.50cm;
+    color: black;
+  }
+  .content46{ 
+    position: absolute;
+    top:1400%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:19.50cm;
+    color: #555555;
+  }
+  .content47{ 
+    position: absolute;
+    top:1500%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:18.30cm;
+    color: black;
+  }
+  .content48{ 
+    position: absolute;
+    top:1560%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:19.50cm;
+    color: #555555;
+  }
+  .content49{ 
+    position: absolute;
+    top:1650%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:19.50cm;
+    color: black;
+  }
+  .content50{ 
+    position: absolute;
+    top:1710%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:20.35cm;
+    color: #555555;
+  }
+  .content51{ 
+    position: absolute;
+    top:1340%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:29.50cm;
+    color: black;
+  }
+  .content52{ 
+    position: absolute;
+    top:1400%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:31.20cm;
+    color: #555555;
+  }
+  .content53{ 
+    position: absolute;
+    top:1500%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:30.30cm;
+    color: black;
+  }
+  .content54{ 
+    position: absolute;
+    top:1560%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:31.80cm;
+    color: #555555;
+  }
+  .content55{ 
+    position: absolute;
+    top:1650%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:29.50cm;
+    color: black;
+  }
+  .content56{ 
+    position: absolute;
+    top:1710%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:31.80cm;
+    color: #555555;
+  }
+  .content57{ 
+    position: absolute;
+    top:1830%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:3.50cm;
+    color: black;
+  }
+  .content58{ 
+    position: absolute;
+    top:2180%;
+    transform: translateX(-50%);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 50%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:8.50cm;
+    color: black;
+  }
+  .content59{ 
+    position: absolute;
+    top:2400%;
+    transform: translateX(-50%);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 40%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:4.90cm;
+    color: black;
+  }
+  .content60{ 
+    position: absolute;
+    top:2670%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:4.90cm;
+    color: white;
+  }
+  .content61{ 
+    position: absolute;
+    top:2710%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:10cm;
+    color: white;
+  }
+  .content62{ 
+    position: absolute;
+    top:77.50cm;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 60%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:1cm;
+    color: black;
+  }
+  .content63{ 
+    position: absolute;
+    top:78.60cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 38%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:-0.50cm;
+    color: black;
+  }
+  .content64{ 
+    position: absolute;
+    top:84cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:3cm;
+    color: black;
+  }
+  .content65{ 
+    position: absolute;
+    top:85.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:1.70cm;
+    color: black;
+  }
+  .content66{ 
+    position: absolute;
+    top:84cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:8cm;
+    color: black;
+  }
+  .content67{ 
+    position: absolute;
+    top:85.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:7cm;
+    color: black;
+  }
+  .content68{ 
+    position: absolute;
+    top:84cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:13.50cm;
+    color: black;
+  }
+  .content69{ 
+    position: absolute;
+    top:85.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:12.50cm;
+    color: black;
+  }
+  .content70{ 
+    position: absolute;
+    top:84cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:19cm;
+    color: black;
+  }
+  .content71{ 
+    position: absolute;
+    top:85.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:18cm;
+    color: black;
+  }
+  .content72{ 
+    position: absolute;
+    top:84cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 58%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:24cm;
+    color: black;
+  }
+  .content73{ 
+    position: absolute;
+    top:85.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:23cm;
+    color: black;
+  }
+  .content74{ 
+    position: absolute;
+    top:84.30cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:30.70cm;
+    color: black;
+  }
+  .content75{ 
+    position: absolute;
+    top:85.30cm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:27.60cm;
+    color: black;
+  }
+  .content76{ 
+    position: absolute;
+    top:87.50cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 43%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:27.60cm;
+    color: black;
+  }
+  .content77{ 
+    position: absolute;
+    top:103.40cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 43%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:12.40cm;
+    color: black;
+  }
+  .content78{ 
+    position: absolute;
+    top:104.30cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 43%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:12.40cm;
+    color: black;
+    font-weight: bold;
+  }
+  .line{ 
+    position: absolute;
+    top:96cm;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 43%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    left:-10cm;
+    color: black;
+  }
+ 
+ 
+  
+ 
+  
+ 
+
+
+  .menu-image3 {
+    position: absolute;
+    top: 220%; /* Adjust the top position as needed */
+    left: 30%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    width:20%; /* Adjusted width */
+  }
+  
+  .menu-image4 {
+    position: absolute;
+    top: 220%; /* Adjust the top position as needed */
+    left:52%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
+    width:23%; /* Adjusted width */
+  }
+  .menu-image5 {
+    position: absolute;
+    top: 215%; /* Adjust the top position as needed */
+    left: 77%;
+    transform: translateX(-50%);
+    width:20%; /* Adjusted width */
+  }
+  .menu-image6 {
+    position: absolute;
+    top: 233%; /* Adjust the top position as needed */
+    left: -200%;
+    transform: translateX(-50%);
+    width:250%; /* Adjusted width */
+    height: 320%;
+  }
+  .menu-image7 {
+    position: absolute;
+    top: 233%; /* Adjust the top position as needed */
+    left: 55%;
+    transform: translateX(-50%);
+    width:230%; /* Adjusted width */
+    height: 320%;
+  }
+  .menu-image8 {
+    position: absolute;
+    top: 233%; /* Adjust the top position as needed */
+    left: 310%;
+    transform: translateX(-50%);
+    width:250%; /* Adjusted width */
+    height: 320%;
+  }
+  .menu-image9 {
+    position: absolute;
+    margin-top: 980%; /* Adjust the top position as needed */
+    left:-13cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image10 {
+    position: absolute;
+    margin-top: 1070%; /* Adjust the top position as needed */
+    left:-13cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image11 {
+    position: absolute;
+    margin-top: 1150%; /* Adjust the top position as needed */
+    left:-13cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image12 {
+    position: absolute;
+    margin-top: 980%; /* Adjust the top position as needed */
+    left:-1cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image13 {
+    position: absolute;
+    margin-top: 1070%; /* Adjust the top position as needed */
+    left:-1cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image14 {
+    position: absolute;
+    margin-top: 1150%;
+    width:60%; 
+    height: 130%;
+    left: -1cm;
+  }
+  .menu-image15 {
+    position: absolute;
+    margin-top: 980%; /* Adjust the top position as needed */
+    left:11cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image16 {
+    position: absolute;
+    margin-top: 1070%; /* Adjust the top position as needed */
+    left:11cm;
+    width:60%; /* Adjusted width */
+    height: 130%;
+  }
+  .menu-image17 {
+    position: absolute;
+    margin-top: 1150%;
+    width:60%; 
+    height: 130%;
+    left:11cm;
+  }
+  .menu-image18 {
+    position: absolute;
+    margin-top: 760%;
+    width:80%; 
+    height: 50%;
+    left:3.50cm;
+  }
+  .menu-image19 {
+    position: absolute;
+    margin-top: 760%;
+    width:230%; 
+    height: 380%;
+    left:27cm;
+  }
+  .menu-image20 {
+    position: absolute;
+    margin-top: 84.50cm;
+    width:45%; 
+    height: 25%;
+    left:29cm;
+  }
+  .menu-image21 {
+    position: absolute;
+    margin-top: 98cm;
+    width:230%; 
+    height: 100%;
+    left:18.70cm;
+  }
+  .menu-image22 {
+    position: absolute;
+    margin-top: 100.50cm;
+    width:280%; 
+    height: 80%;
+    left:18cm;
+  }
+   .buy {
+    position: absolute;
+    right: 390%;
+    top: 880px;
+    background-color:#fff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 11px;
+    border: solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px; /* Adjust the width as per your requirement */
+  height: 35px
+  }
+  .buy2 {
+    position: absolute;
+    right: -120%;
+    top: 880px;
+    background-color:yellow;
+    color: black;
+    padding: 10px 20px;
+    font-size: 11px;
+    border: solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px; /* Adjust the width as per your requirement */
+  height: 48px
+  }
+  .buy3 {
+    position: absolute;
+    right: -650%;
+    top: 880px;
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 11px;
+    border: solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px; /* Adjust the width as per your requirement */
+  height: 35px
+  }
+  .bottom-border {
+    position: absolute;
+    left: -36.50%;
+    width: 556%; /* Adjust the width as needed */
+    border-bottom: 780px solid #1b1209; /* Define the bottom border */
+    top: 300px; /* Adjust the position as needed */
+
+  } .background10 {
+    position: absolute;
+    width: 556%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border horizontally */
+    background-color:#f5f5f5; /* Set the border properties */
+    top:1980%; /* Adjust the bottom margin as needed */
+    height: 700%;
+   left:-37%;
+  
+  }
+ .background11 {
+  position: absolute;
+  width: 556%; /* Set the width of the border */
+  margin: 0 auto; /* Center the border horizontally */
+  background-color:#1b1209; /* Set the border properties */
+  top:2600%; /* Adjust the bottom margin as needed */
+  height: 330%;
+ left:-37%;
+
+}
+.background12 {
+  position: absolute;
+  width: 556%; /* Set the width of the border */
+  margin: 0 auto; /* Center the border horizontally */
+  background-color:   #FFCA53; /* Set the border properties */
+  top:2930%; /* Adjust the bottom margin as needed */
+  height:1170%;
+ left:-37%;
+
+}
+#contactOptions1 {
+  position: absolute;
+  top:103.70cm;
+  left: 78%;
+  color: black;
+  font-family: Arial;
+  font-size: 50%;
+  font-weight: bold;
+  margin: 0;
+  width: 215px; /* Adjust the width as per your requirement */
+  height: 42px;
+  background-color: #FFCA53;
+  border-color: #000;
+}
+
+
+
+
+
+  
+
+  
+  
+
+  
+
+  
